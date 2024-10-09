@@ -1,0 +1,1 @@
+The toon shader is applied to the monkey model, which represents a placeholder for Dr. Mario. The colour correction is part of the same shader and uses a LUT to make the colours cooler.
