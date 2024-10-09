@@ -79,7 +79,7 @@ Shader "Unlit/Toon"
 					col *= _ShadowColour;
 				}
 
-				col = tex2D(_MainTex, float2(col.r, col.g, 32 * col.b));
+				col = tex2D(_MainTex, float2(col.r + 32 * col.b, col.g));
 
 				return col;
 			}
